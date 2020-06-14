@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>quiz start</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="wrapper">
+	<div class="quiz" >
+		<div class="quiz_header">
+			<div class="quiz_user">
+				<h4>Welcome! <span class="name"></span></h4>
+			</div>
+            <div class="quiz_timer">
+            	<span class="time">00:00
+            		
+            	</span>
+            </div>
+
+		</div>
+			<div class="quiz_body">
+				<div id="questions">
+				
+				</div>
+				<button class="btn-next" onclick="previous()">Previous Question</button>
+				<button class="btn-next" onclick="next()">Next Question</button>
+                
+			</div>
+	</div>
+	
+</div>
+
+
+<script src="script.js"></script>
+
+<script src="userinfo.js"></script>
+<script src="timer.js"></script>
+</body>
+</html>

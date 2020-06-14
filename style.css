@@ -1,0 +1,191 @@
+*
+{
+	padding: 0;
+	margin:0;
+	box-sizing: border-box;
+}
+
+body
+{
+	font-family: 'Lato', sans-serif;
+}
+
+.wrapper
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+	background-color: #341f97;
+}
+
+
+.welcome_text
+{
+	width: 400px;
+}
+.welcome_form input,
+.welcome_form button
+{
+
+display: block;
+width: 100%;
+
+
+}
+.welcome_form input
+{
+	margin-bottom: 15px;
+	background-color: transparent;
+	border:none;
+	border-bottom: 2px solid white;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+}
+.welcome_form button
+{
+	padding: 20px 0;
+	font-size: 22px;
+	border:none;
+	background-color: #fff;
+	border-radius: 100px;
+	color: #341f97;
+	transition:0.4s all;
+}
+.welcome_form button:hover
+{
+	transform: translateY(-5px);
+	cursor: pointer;
+
+}
+
+.welcome_form input:focus,
+.welcome_form button:focus
+{
+	outline: none;
+}
+
+.quiz
+{   display: grid;
+	grid-template-rows: 60px auto;
+	width: 800px;
+	height: 500px;
+	background-color: white;
+	border-radius: 3px;
+}
+
+
+
+.quiz_header
+{   border-top-left-radius: 3px;
+	display: flex;
+	justify-content: space-between;
+	background-color: #fff;
+	border-top-right-radius: 3px;
+	box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.3);
+	z-index: 1;
+}
+
+.quiz_user
+{
+	display: flex;
+	align-items: center;
+	padding-left: 30px;
+}
+.quiz_timer
+{
+	display: flex;
+   background-color: #341f97;
+	align-items: center;
+	color: white;
+	padding:0 30px;
+}
+.quiz_body
+{
+	background-color: #ecf0f1;
+	padding:30px;
+}
+
+.option_group
+{
+	list-style: none;
+	margin:30px 0px;
+}
+
+.option
+{
+	background-color: white;
+	width: 300px;
+	padding:15px 20px;
+	margin-bottom: 15px;
+	border-radius: 100px;
+	border:2px solid transparent;
+}
+.option:hover
+{
+	cursor: pointer;
+	border:2px solid black;
+   color: #341f97;
+}
+
+.btn-next
+{
+	background-color: #341f97;
+	color: #fff;
+	padding:15px 35px;
+	border:none;
+	border-radius:27px;
+}
+.btn-next:hover,
+.btn-next:focus
+{
+	cursor: pointer;
+	background-color: #fff;
+	color: #341f97;
+	transition: 1s all;
+	outline: none;
+}
+
+.active
+{
+	background-color: #341f97;
+	color: white !important;
+}
+
+.award_icon
+{
+	font-size: 50%;
+	color: white;
+
+}
+
+
+.user_name,
+.user_points,
+.user_time
+{
+color: white;
+text-align: center;
+margin-top: 15px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
